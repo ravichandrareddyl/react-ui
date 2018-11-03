@@ -10,6 +10,7 @@ import { LoginContainer } from '../LoginContainer';
 import { FormContainer, SearchFormContainer } from '../containers'
 import { Layout, notification } from 'antd';
 const { Content } = Layout;
+const demo='asdsd';
 import './App.css'
 
 class App extends React.Component {
@@ -38,7 +39,7 @@ class App extends React.Component {
                                 <PrivateRoute exact path="/" component={HomePage} />
                                 <Route path="/login" component={LoginContainer} />
                                 <Route path="/compliance/forms" component={FormContainer} />
-                                <Route path="/compliace/search" component={SearchFormContainer}/>
+                                <Route path="/compliance/search" component={SearchFormContainer}/>
                             </Switch>
                         </div>
                     </Content>

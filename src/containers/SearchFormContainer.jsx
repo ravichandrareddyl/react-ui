@@ -8,6 +8,10 @@ class SearchFormContainer extends React.Component {
     }
 
     render() {
+        // ,
+        //         [
+        //             { key: 'month', width: 8, type: 'monthPicker', name: 'month', placeholder: 'Select Month'}
+        //         ]
         const formMetaData = {
             formTitle: 'New Certificate',
             submitName: 'Create',
@@ -26,10 +30,7 @@ class SearchFormContainer extends React.Component {
                         ],   
                       name: 'certType',
                       label: 'Certificate Type', 
-                      value: '--select--', placeholder: 'Select certificate'},
-                ],
-                [
-                    { key: 'month', width: 8, type: 'monthPicker', name: 'month', placeholder: 'Select Month'}
+                      value: '--select--', placeholder: 'Select certificate'}
                 ]
             ]
         };
